@@ -2828,7 +2828,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2835150575170373476, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1999968
+      value: 0.19999981
       objectReference: {fileID: 0}
     - target: {fileID: 2835150575170373476, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2836,7 +2836,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2835150575170373476, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.7000008
+      value: -3.7000065
       objectReference: {fileID: 0}
     - target: {fileID: 3486213655271916175, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: JumpHeight
@@ -2884,7 +2884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6496760865981492216, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.1999968
+      value: 0.19999981
       objectReference: {fileID: 0}
     - target: {fileID: 6496760865981492216, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2892,7 +2892,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6496760865981492216, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.7000008
+      value: -3.7000065
       objectReference: {fileID: 0}
     - target: {fileID: 8696038302417775020, guid: 49828b170c646f642a89f1b79819ac08, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4741,7 +4741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!320 &437445630
 PlayableDirector:
   m_ObjectHideFlags: 0
@@ -4771,12 +4771,16 @@ PlayableDirector:
     value: {fileID: 1380660852}
   - key: {fileID: -3453285280599478557, guid: a2bb82dc5600719498288888498f32f8, type: 2}
     value: {fileID: 1289621812}
+  - key: {fileID: 4060040336284655711, guid: a2bb82dc5600719498288888498f32f8, type: 2}
+    value: {fileID: 865246348}
   m_ExposedReferences:
     m_References:
     - 5d87fb7411f45d34c810fb8dd74cb928: {fileID: 411453648}
+    - 937b9bdf082aa214c9b79d78a7e225b5: {fileID: 488666812}
     - 38a748fa089f85b4aa7e9b714db9a59c: {fileID: 1170748863}
     - 6c5b06858f8e2d34e94f22ca0bd24daa: {fileID: 1969039619}
     - 68e7fc8fabb9e714fbadc13a72022f8a: {fileID: 1551828759}
+    - 3c8b8b0459ffa794fb6355031d12be0d: {fileID: 488666812}
     - 3184c5944690c2447acd904371b0783c: {fileID: 411453648}
     - c1e8471e53705d34199984a1f158015d: {fileID: 230592251}
     - 68b7b498cca330642ac7f4700d176cf4: {fileID: 0}
@@ -5147,6 +5151,81 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 482792495}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &488666810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 488666811}
+  - component: {fileID: 488666812}
+  m_Layer: 0
+  m_Name: FinalCam2.5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &488666811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488666810}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.43295306, y: -0.031373765, z: 0.112317316, w: -0.89384127}
+  m_LocalPosition: {x: -20.263, y: 4.421, z: -12.607}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1667519238}
+  m_LocalEulerAnglesHint: {x: 51.355, y: -363.78, z: -16.142}
+--- !u!114 &488666812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488666810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9dfa5b682dcd46bda6128250e975f58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.Cinemachine::Unity.Cinemachine.CinemachineCamera
+  Priority:
+    Enabled: 0
+    m_Value: 0
+  OutputChannel: 1
+  StandbyUpdate: 2
+  m_StreamingVersion: 20241001
+  m_LegacyPriority: 0
+  Target:
+    TrackingTarget: {fileID: 0}
+    LookAtTarget: {fileID: 0}
+    CustomLookAtTarget: 0
+  Lens:
+    FieldOfView: 60.000004
+    OrthographicSize: 10
+    NearClipPlane: 0.2
+    FarClipPlane: 500
+    Dutch: 0
+    ModeOverride: 0
+    PhysicalProperties:
+      GateFit: 2
+      SensorSize: {x: 21.946, y: 16.002}
+      LensShift: {x: 0, y: 0}
+      FocusDistance: 10
+      Iso: 200
+      ShutterSpeed: 0.005
+      Aperture: 16
+      BladeCount: 5
+      Curvature: {x: 2, y: 11}
+      BarrelClipping: 0.25
+      Anamorphism: 0
+  BlendHint: 0
 --- !u!1001 &490228569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9869,6 +9948,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 865246347}
+  - component: {fileID: 865246348}
   m_Layer: 0
   m_Name: Jack_CinematicRoot
   m_TagString: Untagged
@@ -9892,6 +9972,28 @@ Transform:
   - {fileID: 366769226}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &865246348
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865246346}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &865291328
 GameObject:
   m_ObjectHideFlags: 0
@@ -17535,6 +17637,7 @@ Transform:
   m_Children:
   - {fileID: 1170748864}
   - {fileID: 1551828760}
+  - {fileID: 488666811}
   - {fileID: 411453649}
   - {fileID: 1969039620}
   - {fileID: 230592252}
